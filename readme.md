@@ -1,8 +1,6 @@
 ## ECDSA Node
 
-This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
-
-However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
+This project was manipulated and supplied from Alchemy University, In this project I was able to get an understanding of how digital signatures work on a deeper level, additionally I was able to compute a digital signature from the background, when supplied with a primary key and use it to acess the addresses of the users. Although this project taught me a great deal, I understand this practice isn't very secure and would benefit from the use of some measures for both protecting the users private key and also not allowing one user to host the application. I may try to incorporate some of these features in a future implementation when I have gathered a better understanding of how to use signatures, and access the private keys without taking them in from the front end.
 
 ### Video instructions
 For an overview of this project as well as getting started instructions, check out the following video:
@@ -29,3 +27,5 @@ The server folder contains a node.js server using [express](https://expressjs.co
 The application should connect to the default server port (3042) automatically! 
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
+
+
